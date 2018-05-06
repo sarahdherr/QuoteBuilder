@@ -1,12 +1,13 @@
 {
-  "name": "boilermaker",
+  "name": "QuoteBuilder",
   "version": "1.0.0",
-  "description": "Basic boilermaker from boilermaker workshop at FSA",
+  "description": "Scout quote web app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node start.js",
-    "start-dev": "webpack -w & nodemon start.js",
+    "start-watch": "nodemon start.js",
+    "start-dev": "webpack -w && nodemon start.js",
     "build": "webpack",
     "build-watch": "webpack -w"
   },
