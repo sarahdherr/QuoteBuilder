@@ -1,7 +1,11 @@
-import React from 'react'
+// dev dependencies
+import React from "react"
+
+// components
+import Title from "./components/Title"
 
 export default function Root () {
   return (
-    <h1>Quote builder</h1>
+    <Title />
   )
 }

@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize')
 
-const db = new Sequelize('postgres://localhost:5432/Appy')
+const db = new Sequelize('postgres://localhost:5432/QuoteBuilder')
 
 require('./models')
 
