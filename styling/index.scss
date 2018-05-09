@@ -1,32 +1,26 @@
-#kitten-spotlight {
-  margin-left: 5%;
-  background-color: #70a0af;
-  box-shadow: 10px 10px 5px #888888;
-  * {
-    width: 90%;
-    margin: 8% 5%;
-  }
+body {
+  margin: 5%
 }
 
-#kitten-list {
-  margin-left: 50%;
-  margin-top: -7%
+h1 {
+  text-align: center;
 }
 
-#selected-kitten {
-  display: inline;
+h2 {
+  text-align: center;
 }
 
-#kitten-spot {
-  margin-left: 13%;
+form {
+  font-size: 1.5em;
 }
 
-#kitten-name {
-  margin-left: 5%;
+form * {
+  margin: 10px;
 }
 
 * {
-  color: #393D40;
+  color: #555;
+  text-align: center;
 }
 
 p {
@@ -42,155 +36,66 @@ a:hover {
 }
 
 body {
-  font-family: 'Bubbler One', sans-serif;
-  background-color: #F1EDEA;
+  font-family: Helvetica, sans-serif, sans-serif;
+  background-color: white;
 }
 
-.nav {
-  font-size: 2.2em;
-  background-color: #636363;
-  // color: white !important;
-
-  .tabs {
-    float: right;
-  }
-
-  * {
-    color: #70a0af;
-  }
-
+.fixture-type-form {
+  width: 100%
 }
 
-.sparkles-title {
-  margin-top: 6vh !important;
+.part-number {
+  color: grey;
 }
 
-.brand-name:hover {
-  background-color: #17BEBB;
-  border: 0px transparent;
+.channeltbl {
+  width: 100%;
 }
 
-.brand-name:active {
-  background-color: #17BEBB;
-  border: 0px transparent;
+.channeltbl-header {
+  background-color: lightgrey;
+  height: 5vh;
 }
 
-.about-img {
-  margin-left: 6vw;
-  img {
-    width: 100%;
-    border-radius: 50%;
-    border: solid 3px #70A0AF;
-  }
-}
-
-.about-summary {
-  margin-left: 4vw;
-}
-
-.summary {
-  margin-top: 4vh;
-  h3 {
-    font-size: 2.2em;
-  }
-  h2 {
-    font-size: 2.5em;
-  }
-}
-
-.hobby-img {
-  img {
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid #70A0AF;
-  }
-}
-
-.hobbies {
-  margin-top: 8vh;
-  text-align: center;
-  h2 {
-    font-size: 2.5em;
-  }
-  h4 {
-    font-size: 2em;
-  }
-  p {
-    font-size: 1.5em;
-  }
-}
-
-.experience {
-  margin-top: 8vh;
-  text-align: center;
-  h3 {
-    font-size: 2.5em;
-  }
-}
-
-.experience-img {
-  img {
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid #70A0AF;
-  }
-}
-
-.exprience-summ {
-  text-align: left;
-}
-
-.experience-list {
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
-.experience h4 {
-  margin-top: 3vh;
-  font-size: 2em;
-}
-.experience li {
-  font-size: 1.7em;
-}
-
-.sparkle {
-  margin-top: 5vh !important;
-}
-
-.download-resume {
-  display: inline;
-  text-align: center;
-  h3 {
-      margin-top: 8vh;
-      font-size: 2.5em;
-  }
-  a {
-    font-size: 2em !important;
-  }
-  button:hover {
-    background-color: #4c8799 !important;
-  }
-  button {
-    background-color: #70A0AF;
-    border-color: #F1EDEA;
-
-    * {
-      color: #393d40 !important;
-    }
-  }
-
-}
-
-.download-btn {
-  text-align: center;
-  margin-bottom: 5vh;
-  // background-color: #70A0AF;
-}
-
-.contact {
+.channeltbl-header-cell {
+  border: 1px solid grey;
   text-align: center;
 }
 
-.contact * {
-  text-align: center;
+.channeltbl-body {
+  width: 30%;
+  height: 4vh;
+  border: 1px solid grey;
+}
+
+.channeltbl-body-input {
+  width: 100%;
+  height: 100%;
+}
+
+.channeltbl-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.channeltbl-add-btn {
+  margin: 1%;
+  padding: 1%;
+  background-color: grey;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.fixtype-optional {
+  color: grey;
+}
+
+.fixtype-container {
+  width: 98%;
+  height: 100%;
+  padding: 3%;
+  background-color: #eee;
+  border-radius: 5px;
+  margin: 1%;
 }

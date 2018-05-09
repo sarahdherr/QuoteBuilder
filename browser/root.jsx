@@ -3,9 +3,17 @@ import React from "react"
 
 // components
 import Title from "./components/Title"
+import FixtureType from "./components/FixtureType"
+import OptionalFixtureType from "./components/OptionalFixtureType"
+import ChannelLengthTable from "./components/ChannelLengthTable"
 
 export default function Root () {
   return (
-    <Title />
+    <div>
+      <Title />
+      <FixtureType />
+      <OptionalFixtureType />
+      <ChannelLengthTable />
+    </div>
   )
 }

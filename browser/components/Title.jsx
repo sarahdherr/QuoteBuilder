@@ -1,4 +1,6 @@
 import React from "react"
 
 export default (props) =>
-    <h1>Quote builder</h1>
+    <div>
+        <h1><strong>Quote builder</strong></h1>
+    </div>
