@@ -24,7 +24,7 @@ form * {
 }
 
 p {
-  font-size: 1.7em;
+  font-size: 1.2em;
 }
 
 a {
@@ -40,6 +40,10 @@ body {
   background-color: white;
 }
 
+.define-title {
+  text-decoration: underline;
+}
+
 .fixture-type-form {
   width: 100%
 }
@@ -50,6 +54,7 @@ body {
 
 .channeltbl {
   width: 100%;
+  table-layout: fixed;
 }
 
 .channeltbl-header {
@@ -60,6 +65,7 @@ body {
 .channeltbl-header-cell {
   border: 1px solid grey;
   text-align: center;
+  font-size: 0.8em;
 }
 
 .channeltbl-body {
@@ -71,31 +77,248 @@ body {
 .channeltbl-body-input {
   width: 100%;
   height: 100%;
+  border: none;
+}
+
+.channeltbl-toggle {
+  background-color: white;
+}
+
+.channeltbl-toggle-icon {
+  margin-top: 0.5em;
 }
 
 .channeltbl-btn {
   display: flex;
   justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 .channeltbl-add-btn {
-  margin: 1%;
-  padding: 1%;
-  background-color: grey;
-  border: none;
-  color: white;
-  border-radius: 5px;
+  background-color: #dddddd;
+  border: white solid 1px;
+  color: black;
+  width: 12.5%;
+  margin-right: 1px;
+  height: 2em;
 }
 
 .fixtype-optional {
   color: grey;
 }
 
-.fixtype-container {
-  width: 98%;
-  height: 100%;
-  padding: 3%;
-  background-color: #eee;
-  border-radius: 5px;
+// .fixtype-container {
+//   width: 98%;
+//   height: 100%;
+//   padding: 3%;
+//   background-color: #eee;
+//   border-radius: 5px;
+//   margin: 1%;
+// }
+
+.collapsed-container {
+  display: flex;
+  background-color: lightgrey;
+  border-radius: 8px;
   margin: 1%;
+}
+
+.collapsed-info {
+  display: flex;
+  width: 95%;
+}
+
+.collapsed-partnum {
+  margin: 5px;
+}
+
+.collapsed-status {
+  margin: 5px;
+}
+
+.collapsed-partnum-text {
+  font-size: 1.2em;
+  padding: 5px 8px;
+  margin: 0;
+}
+
+.collapsed-status-text {
+  font-size: 1.2em;
+  padding: 5px 8px;
+  margin: 0;
+}
+
+.collapsed-arrows {
+  width: 5%;
+  align-self: center;
+}
+
+.collapsed-arrows-icon {
+  font-size: 1.7em;
+  margin-right: 30%;
+}
+
+.header {
+  display: flex;
+}
+
+.header-left {
+  display: flex;
+  width: 100%;
+}
+
+.type-container {
+  display: flex;
+}
+
+.type-label {
+  font-size: 1.5em;
+}
+
+.type-input {
+  height: 2em;
+  border: none;
+  width: 50%;
+  margin: 0 10px;
+}
+
+.open-arrows {
+  width: 5%;
+  align-self: center;
+  margin-right: -3%;
+  margin-top: -5%;
+}
+
+.channel-tbl-toggle {
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: -5px;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.fixture-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.fixture-form-cell {
+  flex-direction: column;
+  display: flex;
+}
+
+.fixture-form-label {
+  font-size: 0.8em;
+  margin-left: 0.5em;
+  margin: 0;
+  text-align: left;
+}
+
+.fixture-form-select {
+  margin-top: 0;
+  margin-left: 0;
+  font-size: 0.8em;
+  background-color: #dddddd;
+  border: 0px;
+}
+
+.jobinfo-container {
+  display: flex;
+}
+
+.jobinfo-item-label {
+  width: 10%;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.jobinfo-item-input {
+  margin: 0.5em;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.title {
+  text-align: left;
+  * {
+      font-size: 0.8em;
+      color: #f47f38;
+      font-family: monospace;
+  }
+}
+
+.final-buttons-container {
+  display: flex;
+}
+
+.final-buttons {
+  margin-right: 0.8em;
+  width: 11em;
+  border: 0;
+  background-color: #dddddd;
+  padding: 3px 0;
+}
+
+.define-container {
+  border: 1px solid #f47f38;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px -10px;
 }
