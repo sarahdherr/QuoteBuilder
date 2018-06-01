@@ -11010,7 +11010,7 @@ exports = module.exports = __webpack_require__(100)(false);
 
 
 // module
-exports.push([module.i, "body {\n  margin: 5%; }\n\nh1 {\n  text-align: center; }\n\nh2 {\n  text-align: center; }\n\nform {\n  font-size: 1.5em; }\n\nform * {\n  margin: 10px; }\n\n* {\n  color: #555;\n  text-align: center; }\n\np {\n  font-size: 1.2em; }\n\na {\n  font-size: 1.5em; }\n\na:hover {\n  text-decoration: none; }\n\nbody {\n  font-family: Helvetica, sans-serif, sans-serif;\n  background-color: white; }\n\n.define-title {\n  text-decoration: underline; }\n\n.fixture-type-form {\n  width: 100%; }\n\n.part-number {\n  color: grey; }\n\n.channeltbl {\n  width: 100%;\n  table-layout: fixed; }\n\n.channeltbl-header {\n  background-color: lightgrey;\n  height: 5vh; }\n\n.channeltbl-header-cell {\n  border: 1px solid grey;\n  text-align: center;\n  font-size: 0.8em; }\n\n.channeltbl-body {\n  width: 30%;\n  height: 4vh;\n  border: 1px solid grey; }\n\n.channeltbl-body-input {\n  width: 100%;\n  height: 100%;\n  border: none; }\n\n.channeltbl-toggle {\n  background-color: white; }\n\n.channeltbl-toggle-icon {\n  margin-top: 0.5em; }\n\n.channeltbl-btn {\n  display: flex;\n  justify-content: flex-end;\n  margin: 0;\n  padding: 0; }\n\n.channeltbl-add-btn {\n  background-color: #dddddd;\n  border: white solid 1px;\n  color: black;\n  width: 12.5%;\n  margin-right: 1px;\n  height: 2em; }\n\n.fixtype-optional {\n  color: grey; }\n\n.collapsed-container {\n  display: flex;\n  background-color: lightgrey;\n  border-radius: 8px;\n  margin: 1%; }\n\n.collapsed-info {\n  display: flex;\n  width: 95%; }\n\n.collapsed-partnum {\n  margin: 5px; }\n\n.collapsed-status {\n  margin: 5px; }\n\n.collapsed-partnum-text {\n  font-size: 1.2em;\n  padding: 5px 8px;\n  margin: 0; }\n\n.collapsed-status-text {\n  font-size: 1.2em;\n  padding: 5px 8px;\n  margin: 0; }\n\n.collapsed-arrows {\n  width: 5%;\n  align-self: center; }\n\n.collapsed-arrows-icon {\n  font-size: 1.7em;\n  margin-right: 30%; }\n\n.header {\n  display: flex; }\n\n.header-left {\n  display: flex;\n  width: 100%; }\n\n.type-container {\n  display: flex; }\n\n.type-label {\n  font-size: 1.5em; }\n\n.type-input {\n  height: 2em;\n  border: none;\n  width: 50%;\n  margin: 0 10px; }\n\n.open-arrows {\n  width: 5%;\n  align-self: center;\n  margin-right: -3%;\n  margin-top: -5%; }\n\n/* The switch - the box around the slider */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 50px;\n  height: 28px; }\n\n/* Hide default HTML checkbox */\n.switch input {\n  display: none; }\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: -5px;\n  bottom: 0;\n  background-color: #ccc;\n  -webkit-transition: .4s;\n  transition: .4s; }\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 21px;\n  width: 21px;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  -webkit-transition: .4s;\n  transition: .4s; }\n\ninput:checked + .slider {\n  background-color: #2196F3; }\n\ninput:focus + .slider {\n  box-shadow: 0 0 1px #2196F3; }\n\ninput:checked + .slider:before {\n  -webkit-transform: translateX(26px);\n  -ms-transform: translateX(26px);\n  transform: translateX(26px); }\n\n/* Rounded sliders */\n.slider.round {\n  border-radius: 34px; }\n\n.slider.round:before {\n  border-radius: 50%; }\n\n.fixture-form {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between; }\n\n.fixture-form-cell {\n  flex-direction: column;\n  display: flex; }\n\n.fixture-form-label {\n  font-size: 0.8em;\n  margin-left: 0.5em;\n  margin: 0;\n  text-align: left; }\n\n.fixture-form-select {\n  margin-top: 0;\n  margin-left: 0;\n  font-size: 0.8em;\n  background-color: #dddddd;\n  border: 0px; }\n\n.jobinfo-container {\n  display: flex; }\n\n.jobinfo-item-label {\n  width: 10%;\n  text-align: left;\n  margin: 5px 0; }\n\n.jobinfo-item-input {\n  margin: 0.5em;\n  border: 1px solid #dddddd;\n  text-align: left; }\n\n.title {\n  text-align: left; }\n  .title * {\n    font-size: 0.8em;\n    color: #f47f38;\n    font-family: monospace; }\n\n.final-buttons-container {\n  display: flex; }\n\n.final-buttons {\n  margin-right: 0.8em;\n  width: 11em;\n  border: 0;\n  background-color: #dddddd;\n  padding: 3px 0; }\n\n.define-container {\n  border: 1px solid #f47f38;\n  border-radius: 10px;\n  padding: 10px;\n  margin: 10px -10px; }\n", ""]);
+exports.push([module.i, "body {\n  margin: 5%; }\n\nh1 {\n  text-align: center; }\n\nh2 {\n  text-align: center; }\n\nform {\n  font-size: 1.5em; }\n\nform * {\n  margin: 10px; }\n\n* {\n  color: #555;\n  text-align: center; }\n\np {\n  font-size: 1.2em; }\n\na {\n  font-size: 1.5em; }\n\na:hover {\n  text-decoration: none; }\n\nbody {\n  font-family: Helvetica, sans-serif, sans-serif;\n  background-color: white; }\n\n.define-title {\n  text-decoration: underline; }\n\n.fixture-type-form {\n  width: 100%; }\n\n.part-number {\n  color: grey; }\n\n.channeltbl {\n  width: 100%;\n  table-layout: fixed; }\n\n.channeltbl-header {\n  background-color: #a7a7a791;\n  height: 5vh; }\n\n.channeltbl-header-cell {\n  border: 1px solid #dddddd;\n  text-align: center;\n  font-size: 0.8em; }\n\n.channeltbl-body {\n  width: 30%;\n  height: 4vh;\n  border: 1px solid #dddddd; }\n\n.channeltbl-body-input {\n  width: 100%;\n  height: 100%;\n  border: none; }\n\n.channeltbl-toggle {\n  background-color: white; }\n\n.channeltbl-toggle-icon {\n  margin-top: 0.5em; }\n\n.channeltbl-btn {\n  display: flex;\n  justify-content: flex-end;\n  margin: 0;\n  padding: 0; }\n\n.channeltbl-add-btn {\n  background-color: #dddddd;\n  border: white solid 1px;\n  color: black;\n  width: 12.5%;\n  margin-right: 1px;\n  height: 2em; }\n\n.fixtype-optional {\n  color: grey; }\n\n.collapsed-container {\n  display: flex;\n  background-color: lightgrey;\n  border-radius: 8px;\n  margin: 1%; }\n\n.collapsed-info {\n  display: flex;\n  width: 95%; }\n\n.collapsed-partnum {\n  margin: 5px; }\n\n.collapsed-status {\n  margin: 5px; }\n\n.collapsed-partnum-text {\n  font-size: 1.2em;\n  padding: 5px 8px;\n  margin: 0; }\n\n.collapsed-status-text {\n  font-size: 1.2em;\n  padding: 5px 8px;\n  margin: 0; }\n\n.collapsed-arrows {\n  width: 5%;\n  align-self: center; }\n\n.collapsed-arrows-icon {\n  font-size: 1.7em;\n  margin-right: 30%; }\n\n.header {\n  display: flex; }\n\n.header-left {\n  display: flex;\n  width: 100%; }\n\n.type-container {\n  display: flex; }\n\n.type-label {\n  font-size: 1.5em; }\n\n.type-input {\n  height: 2em;\n  border: none;\n  width: 50%;\n  margin: 0 10px; }\n\n.open-arrows {\n  width: 5%;\n  align-self: center;\n  margin-right: -3%;\n  margin-top: -5%; }\n\n/* The switch - the box around the slider */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 50px;\n  height: 28px; }\n\n/* Hide default HTML checkbox */\n.switch input {\n  display: none; }\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: -5px;\n  bottom: 0;\n  background-color: #ccc;\n  -webkit-transition: .4s;\n  transition: .4s; }\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 21px;\n  width: 21px;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  -webkit-transition: .4s;\n  transition: .4s; }\n\ninput:checked + .slider {\n  background-color: #2196F3; }\n\ninput:focus + .slider {\n  box-shadow: 0 0 1px #2196F3; }\n\ninput:checked + .slider:before {\n  -webkit-transform: translateX(26px);\n  -ms-transform: translateX(26px);\n  transform: translateX(26px); }\n\n/* Rounded sliders */\n.slider.round {\n  border-radius: 34px; }\n\n.slider.round:before {\n  border-radius: 50%; }\n\n.fixture-form {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between; }\n\n.fixture-form-cell {\n  flex-direction: column;\n  display: flex; }\n\n.fixture-form-label {\n  font-size: 0.8em;\n  margin-left: 0.5em;\n  margin: 0;\n  text-align: left; }\n\n.fixture-form-select {\n  margin-top: 0;\n  margin-left: 0;\n  font-size: 0.8em;\n  background-color: #dddddd;\n  border: 0px; }\n\n.jobinfo-container {\n  display: flex; }\n\n.jobinfo-item-label {\n  width: 10%;\n  text-align: left;\n  margin: 5px 0; }\n\n.jobinfo-item-input {\n  margin: 0.5em;\n  border: 1px solid #dddddd;\n  text-align: left; }\n\n.title {\n  text-align: left; }\n  .title * {\n    font-size: 0.8em;\n    color: #f47f38;\n    font-family: monospace; }\n\n.final-buttons-container {\n  display: flex; }\n\n.final-buttons {\n  margin-right: 0.8em;\n  width: 11em;\n  border: 0;\n  background-color: #dddddd;\n  padding: 3px 0; }\n\n.define-container {\n  border: 1px solid #f47f38;\n  border-radius: 10px;\n  padding: 10px;\n  margin: 10px -10px; }\n\n.part-number {\n  background-color: #a7a7a7;\n  color: white;\n  padding-top: 0.2em;\n  padding-bottom: 0.2em;\n  margin: 0 0.5em; }\n", ""]);
 
 // exports
 
@@ -23403,6 +23403,10 @@ var _FixtureType = __webpack_require__(89);
 
 var _FixtureType2 = _interopRequireDefault(_FixtureType);
 
+var _PartNumber = __webpack_require__(211);
+
+var _PartNumber2 = _interopRequireDefault(_PartNumber);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -23434,20 +23438,23 @@ var _class = function (_React$Component) {
         key: "handleSelect",
         value: function handleSelect(name, evt) {
             evt.preventDefault();
+            console.log(evt.target.value);
             var val = evt.target.value;
-            var stateObj = this.state.fixVals;
+            var stateObj = this.state.fixtureVals;
             stateObj[name] = { value: val, initials: val.split(" - ")[0].split(".")[0] };
             this.setState({ fixtureVals: stateObj }, this.calculatePartNumber);
         }
     }, {
         key: "calculatePartNumber",
         value: function calculatePartNumber() {
+            console.log("calculating part number");
             var prefix = this.state.fixtureVals.prefix ? this.state.fixtureVals.prefix.initials : "";
             var channel = this.state.fixtureVals.channel ? this.state.fixtureVals.channel.initials : "";
             var lens = this.state.fixtureVals.lens ? this.state.fixtureVals.lens.initials : "";
             var intensity = this.state.fixtureVals.intensity ? this.state.fixtureVals.intensity.initials : "";
             var cct = this.state.fixtureVals.cct ? this.state.fixtureVals.cct.initials : "";
             var newPartNumber = "" + prefix + channel + lens + intensity + cct;
+            console.log("new number:", newPartNumber);
             this.setState({ partNumber: newPartNumber });
         }
     }, {
@@ -23459,7 +23466,8 @@ var _class = function (_React$Component) {
                 _react2.default.createElement(_Title2.default, { title: "DEFINE TYPE" }),
                 _react2.default.createElement(_FixtureType2.default, {
                     fixVals: this.state.fixtureVals,
-                    handleSelect: this.handleSelect })
+                    handleSelect: this.handleSelect }),
+                _react2.default.createElement(_PartNumber2.default, { partNumber: this.state.partNumber })
             );
         }
     }]);
@@ -23859,6 +23867,32 @@ exports.default = function (props) {
             { className: "final-buttons" },
             "Finish"
         )
+    );
+};
+
+/***/ }),
+/* 211 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(7);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = function (props) {
+    return _react2.default.createElement(
+        "p",
+        { className: "part-number" },
+        "Part # ",
+        props.partNumber
     );
 };
 

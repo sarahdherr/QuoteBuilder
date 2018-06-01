@@ -58,12 +58,12 @@ body {
 }
 
 .channeltbl-header {
-  background-color: lightgrey;
+  background-color: #a7a7a791;
   height: 5vh;
 }
 
 .channeltbl-header-cell {
-  border: 1px solid grey;
+  border: 1px solid #dddddd;
   text-align: center;
   font-size: 0.8em;
 }
@@ -71,7 +71,7 @@ body {
 .channeltbl-body {
   width: 30%;
   height: 4vh;
-  border: 1px solid grey;
+  border: 1px solid #dddddd;
 }
 
 .channeltbl-body-input {
@@ -321,4 +321,12 @@ input:checked + .slider:before {
   border-radius: 10px;
   padding: 10px;
   margin: 10px -10px;
+}
+
+.part-number {
+  background-color: #a7a7a7;
+  color: white;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0 0.5em;
 }
