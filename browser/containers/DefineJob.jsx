@@ -21,7 +21,7 @@ export default class extends React.Component {
         evt.preventDefault();
         let tempObj = {};
         tempObj[evt.target.name] = evt.target.value;
-        this.setState(tempObj, console.log(this.state));
+        this.setState(tempObj, this.props.sendJobInfo(this.state));
     }
 
     render () {

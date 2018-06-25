@@ -12,4 +12,4 @@ syncedDbPromise
   })
   .catch(err => console.error(err))
 
-module.exports = syncedDbPromise
+module.exports = syncedDbPromise;

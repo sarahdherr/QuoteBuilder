@@ -15,7 +15,7 @@ export default class extends React.Component {
         return (
             <div>
                 <Title title="DEFINE RUNS" />
-                <RunTable />
+                <RunTable fixture={this.props.fixture}/>
             </div>
         );
     }

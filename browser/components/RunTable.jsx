@@ -17,6 +17,7 @@ export default class extends React.Component {
     }
 
     render() {
+        console.log("RUN TABLE", this.props);
         return (
             <div className="fixtype-container">
                 <table className="channeltbl">
@@ -35,7 +36,7 @@ export default class extends React.Component {
                     <tbody>
                     {
                         this.state.rows.map((row, idx) => 
-                            <RunRow key={idx}/>
+                            <RunRow key={idx} intensity={this.props.fixture.fixtureVals && this.props.fixture.fixtureVals.intensity ? Number(this.props.fixture.fixtureVals.intensity.value) : 0}/>
                         )
                     }
                     </tbody>

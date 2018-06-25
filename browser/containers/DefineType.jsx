@@ -23,7 +23,10 @@ export default class extends React.Component {
         let val = evt.target.value;
         let stateObj = this.state.fixtureVals;
         stateObj[name] = { value: val, initials: val.split(" - ")[0].split(".")[0] }
-        this.setState({ fixtureVals: stateObj }, this.calculatePartNumber)
+        this.setState({ fixtureVals: stateObj }, () => {
+            this.calculatePartNumber()
+            this.props.sendFixtureInfo(this.state)
+        })
     }
 
     calculatePartNumber() {
